@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_primary">#111111</color>
+    <color name="text_secondary">#666666</color>
+    <color name="divider">#EEEEEE</color>
+    <color name="status_on">#2E7D32</color>
+    <color name="status_off">#C62828</color>
+    <color name="auto_badge">#C62828</color>
+    <color name="accent">#C62828</color>
+</resources>

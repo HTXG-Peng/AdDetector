@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AdDetector</string>
+    <string name="service_label">AdDetector 前台应用记录</string>
+    <string name="accessibility_service_description">实时记录应用切换和疑似自动跳转，只读取包名、时间与点击时间，不读取屏幕内容，不联网。</string>
+
+    <string name="title">跳转记录</string>
+    <string name="status_checking">正在检查无障碍服务…</string>
+    <string name="status_on">无障碍服务已开启，正在实时记录</string>
+    <string name="status_off">无障碍服务未开启，点下方按钮去开启</string>
+    <string name="btn_accessibility_on">无障碍设置</string>
+    <string name="btn_accessibility_off">开启无障碍</string>
+    <string name="btn_files">文件权限</string>
+    <string name="btn_clear">清空</string>
+
+    <string name="empty_waiting">等待应用切换…\n再切回本应用即可看到记录</string>
+    <string name="empty_disabled">还没有记录\n请先开启无障碍服务</string>
+
+    <string name="route_format">%1$s → %2$s</string>
+    <string name="auto_badge">停留 %1$s · 疑似自动跳转</string>
+    <string name="normal_badge">停留 %1$s · 正常切换</string>
+    <string name="first_seen">服务启动后首次前台应用</string>
+    <string name="start_label">启动</string>
+
+    <string name="notification_channel">自动跳转提醒</string>
+    <string name="notification_channel_desc">检测到疑似自动打开其他应用时提醒</string>
+    <string name="notification_title">疑似自动跳转</string>
+    <string name="notification_text">%1$s → %2$s，停留 %3$s</string>
+
+    <string name="clear_title">清空记录？</string>
+    <string name="clear_message">界面记录和日志文件都会清空。</string>
+    <string name="clear_confirm">清空</string>
+    <string name="cancel">取消</string>
+    <string name="cleared">已清空</string>
+
+    <string name="files_not_needed">此系统版本不需要额外文件权限</string>
+    <string name="files_already">已具备文件写入权限</string>
+    <string name="settings_unavailable">打不开系统设置</string>
+</resources>
